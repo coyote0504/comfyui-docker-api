@@ -1,0 +1,1 @@
+docker run --gpus all -p 8188:8188 -v E:\ComfyUI-aki\ComfyUI-aki-v1.6\ComfyUI\user:/app/user -v E:\ComfyUI-aki\ComfyUI-aki-v1.6\ComfyUI\models:/app/models --name comfyui obeliks/comfyui:sha-243e9cc-cu118
